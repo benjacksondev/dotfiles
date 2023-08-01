@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "editor.lineHeight": 2.6,
+    "editor.fontSize": 15,
+    "workbench.startupEditor": "none",
+    "hediet.vscode-drawio.resizeImages": null,
+    "hediet.vscode-drawio.theme": "min",
+    "editor.lineNumbers": "relative",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code, Monaco, 'Courier New', monospace",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "workbench.preferredHighContrastColorTheme": "Visual Studio Dark",
+    "workbench.colorCustomizations": {
+        // "sideBar.background": "#282a3a",
+        "activityBar.background": "#282a3a",
+        "terminal.background": "#282a3a"
+        // "sideBar.foreground": "#282a3a",
+        // "sideBar.border": "#282a3a"
+    }
+}

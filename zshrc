@@ -2,6 +2,8 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="apple"
 DISABLE_LS_COLORS="true"
 
+source ~/.zsh_custom
+
 plugins=(git terraform kubectl)
 
 source $ZSH/oh-my-zsh.sh
@@ -22,3 +24,9 @@ function h { cd ~/$1 }
 _h() { _files -W ~/ -/; }
 compdef _h h
 
+# RANCHER
+export PATH="/Users/ben.jackson/.rd/bin:$PATH"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/ben.jackson/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
